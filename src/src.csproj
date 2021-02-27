@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>AlbedoTeam.Sdk.EventStore</AssemblyName>
+        <RootNamespace>AlbedoTeam.Sdk.EventStore</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AlbedoTeam.Sdk.DataLayerAccess" Version="1.0.0-CI-20210225-192413" />
+        <PackageReference Include="AutoMapper" Version="10.1.1" />
+        <PackageReference Include="MassTransit" Version="7.0.4" />
+        <PackageReference Include="MassTransit.Analyzers" Version="7.0.4" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.8" />
+    </ItemGroup>
+
+</Project>
